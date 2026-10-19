@@ -1,0 +1,18 @@
+{
+  "default_branch": "develop",
+  "branches": [
+    "develop",
+    "origin",
+    "security/issue-44-add-cloud-kms-facilitator-signer-provider"
+  ],
+  "parent": {
+    "develop": null,
+    "origin": "develop",
+    "security/issue-44-add-cloud-kms-facilitator-signer-provider": "develop"
+  },
+  "order": [
+    "develop",
+    "origin",
+    "security/issue-44-add-cloud-kms-facilitator-signer-provider"
+  ]
+}

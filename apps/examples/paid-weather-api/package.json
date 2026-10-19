@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx src/main.ts",
-    "start": "tsx src/main.ts"
+    "dev": "node init && tsx src/main.ts",
+    "start": "node init && tsx src/main.ts"
   },
   "dependencies": {
     "@lumenbazaar/buyer-sdk": "workspace:*",
